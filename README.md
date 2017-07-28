@@ -2,6 +2,8 @@
 
 Command line tool that generate UseCase map from almin's UseCases.
 
+![example output](./out.svg)
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):

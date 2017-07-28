@@ -1,0 +1,34 @@
+<svg width="398" height="575" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:3;stroke-linejoin:round;stroke-linecap:round"><rect x="75.5" y="25.5" height="265" width="249" style="stroke:#33322E;fill:#eee8d5;"></rect>
+<text x="170.3" y="59" style="">group-a</text>
+<path d="M75.5 80.5 L324.5 80.5" style="stroke:#33322E;fill:none;"></path>
+<path d="M189.8 158 L225.5 133 L250.5 133 L250.5 133 " style="stroke:#33322E;fill:none;"></path>
+<path d="M233.8 139.7 L242.2 133 L233.8 126.3 L250.5 133 Z" style="stroke:#33322E;fill:#33322E;"></path>
+<path d="M189.8 213 L225.5 238 L250.5 238 L250.5 238 " style="stroke:#33322E;fill:none;"></path>
+<path d="M233.8 244.7 L242.2 238 L233.8 231.3 L250.5 238 Z" style="stroke:#33322E;fill:#33322E;"></path>
+<circle r="10" cx="150.5" cy="153.5" style="stroke:#33322E;fill:#fdf6e3;"></circle>
+<path d="M150.5 163.5 L150.5 183.5" style="stroke:#33322E;fill:none;"></path>
+<path d="M140.5 173.5 L160.5 173.5" style="stroke:#33322E;fill:none;"></path>
+<path d="M140.5 193.5 L150.5 183.5 L160.5 193.5" style="stroke:#33322E;fill:none;"></path>
+<text x="120.8" y="207" style="">AppUser</text>
+<ellipse cx="275" cy="133" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
+<text x="270.8" y="139" style="">A</text>
+<ellipse cx="275" cy="238" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
+<text x="270.8" y="244" style="">B</text>
+<rect x="25.5" y="340.5" height="210" width="348" style="stroke:#33322E;fill:#eee8d5;"></rect>
+<text x="169.8" y="374" style="">group-b</text>
+<path d="M25.5 395.5 L373.5 395.5" style="stroke:#33322E;fill:none;"></path>
+<path d="M150.5 460.9 L175.5 448 L200.5 448 L200.5 448 " style="stroke:#33322E;fill:none;"></path>
+<path d="M183.8 454.7 L192.2 448 L183.8 441.3 L200.5 448 Z" style="stroke:#33322E;fill:#33322E;"></path>
+<path d="M249.5 448 L274.5 448 L299.5 467.6 L299.5 467.6 " style="stroke:#33322E;fill:none;"></path>
+<path d="M282.3 462.5 L292.9 462.4 L290.5 452 L299.5 467.6 Z" style="stroke:#33322E;fill:#33322E;"></path>
+<path d="M150.5 512.6 L175.5 525.5 L274.5 525.5 L274.5 525.5 L299.5 505.9 L299.5 505.9 " style="stroke:#33322E;fill:none;"></path>
+<path d="M290.5 521.5 L292.9 511.1 L282.3 511 L299.5 505.9 Z" style="stroke:#33322E;fill:#33322E;"></path>
+<circle r="10" cx="100.5" cy="454.5" style="stroke:#33322E;fill:#fdf6e3;"></circle>
+<path d="M100.5 464.5 L100.5 484.5" style="stroke:#33322E;fill:none;"></path>
+<path d="M90.5 474.5 L110.5 474.5" style="stroke:#33322E;fill:none;"></path>
+<path d="M90.5 494.5 L100.5 484.5 L110.5 494.5" style="stroke:#33322E;fill:none;"></path>
+<text x="70.8" y="508" style="">AppUser</text>
+<ellipse cx="225" cy="448" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
+<text x="220.8" y="454" style="">C</text>
+<ellipse cx="324" cy="486.8" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
+<text x="319.8" y="493" style="">D</text></svg>

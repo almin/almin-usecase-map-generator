@@ -122,6 +122,10 @@ UseCase
 
 ```
 
+## Usage of module
+
+- [ ] Need more info
+
 ## Changelog
 
 See [Releases page](https://github.com/almin/almin-usecase-map-generator/releases).

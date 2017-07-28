@@ -1,6 +1,5 @@
 // MIT © 2017 azu
 "use strict";
-import * as fs from "fs";
 import * as path from "path";
 import { createNomnoml } from "./create-nomnoml";
 export interface generateUseCaseMapConfig {
@@ -38,9 +37,5 @@ export function generateUseCaseMap(config: generateUseCaseMapConfig) {
         ...config
     });
 
-    if (config.outputPath) {
-        fs.writeFileSync(path.resolve(process.cwd(), config.outputPath), output, "utf-8");
-    } else {
-        console.log(output);
-    }
+    return output;
 }

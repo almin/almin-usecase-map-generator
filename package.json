@@ -12,8 +12,11 @@
   ],
   "name": "almin-usecase-map-generator",
   "version": "1.0.0",
-  "description": "Generator UseCase map from almin's UseCases.",
+  "description": "Command line tool that generate UseCase map from almin's UseCases.",
   "main": "lib/almin-usecase-map-generator.js",
+  "bin": {
+    "almin-usecase-map-generator": "lib/almin-usecase-map-generator.js"
+  },
   "scripts": {
     "precommit": "lint-staged",
     "postcommit": "git reset",
@@ -55,8 +58,10 @@
   "dependencies": {
     "@types/globby": "^0.6.0",
     "@types/lodash.groupby": "^4.6.2",
+    "@types/meow": "^3.6.2",
     "globby": "^6.1.0",
     "lodash.groupby": "^4.6.0",
+    "meow": "^3.7.0",
     "nomnoml": "^0.1.1"
   }
 }

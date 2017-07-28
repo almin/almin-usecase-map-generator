@@ -1,6 +1,6 @@
 # almin-usecase-map-generator
 
-Generator UseCase map from almin&#39;s UseCases.
+Command line tool that generate UseCase map from almin's UseCases.
 
 ## Install
 
@@ -10,7 +10,96 @@ Install with [npm](https://www.npmjs.com/):
 
 ## Usage
 
-- [ ] Write usage instructions
+    Usage
+      $ almin-usecase-map-generator "[glob*]"
+
+    Options
+      --output  output path
+      --format  "nomnoml" | "svg" (default: "svg")
+
+    Examples
+          $ almin-usecase-map-generator "src/use-case/**/*.js"
+
+## Structure of UseCase
+
+For example, [Faao](https://github.com/azu/faao "Faao").
+
+- UseCase
+    - Group/
+        - UseCase files
+
+Result: <https://azu.github.io/faao/meta/use-case.html>
+
+```
+✈ tree
+UseCase
+├── App
+│   ├── AppUserOpenGitHubUserCase.ts
+│   ├── AppUserOpenGitHubUserEventUseCase.ts
+│   ├── AppUserOpenItemUseCase.ts
+│   ├── AppUserOpenStreamUseCase.ts
+│   ├── AppUserSelectFirstItemUseCase.ts
+│   ├── AppUserSelectItemUseCase.ts
+│   ├── AppUserSelectNextItemUseCase.ts
+│   ├── AppUserSelectPrevItemUseCase.ts
+│   ├── OpenItemInNewTabUseCase.ts
+│   ├── UpdateAppNetworkStatusUseCase.ts
+│   └── UpdateQueryToSearchListUseCase.ts
+├── DomainConnection
+│   ├── GItHubSettingToGitHubUser.ts
+│   └── README.md
+├── GitHubSearchList
+│   ├── AddSearchListUseCase.ts
+│   ├── DeleteQueryUseCase.ts
+│   ├── SaveQueryToSearchListUseCase.ts
+│   ├── SearchQueriesAndOpenStreamUseCase.ts
+│   ├── SearchQueriesAndUpdateStreamUseCase.ts
+│   ├── SearchQueryAndOpenStreamUseCase.ts
+│   ├── SearchQueryToUpdateStreamUseCase.ts
+│   ├── ToggleQueryPanelUseCase.ts
+│   └── ToggleSearchListPanelUseCase.ts
+├── GitHubSearchStream
+│   ├── ApplyFilterToCurrentStreamUseCase.ts
+│   ├── ReloadActiveStreamUseCase.ts
+│   └── ReloadAllStreamUseCase.ts
+├── GitHubSetting
+│   ├── CheckGrantGitHubAPIUseCase.ts
+│   ├── DeleteSettingUseCase.ts
+│   ├── SaveGitHubSettingUseCase.ts
+│   ├── ToggleSettingPanelUseCase.ts
+│   └── __tests__
+│       └── ToggleSettingPanelUseCase-test.ts
+├── GitHubUser
+│   ├── ApplyFilterToCurrentUserActivityUseCase.ts
+│   ├── FetchGitHubUserActivityUseCase.ts
+│   ├── FetchGitHubUserDataUserCase.ts
+│   └── ReloadCurrentUserActivityUseCase.ts
+├── Mobile
+│   └── ToggleMobileMenuUseCase.ts
+├── Notice
+│   ├── DismissErrorNoticeUseCase.ts
+│   ├── ShowErrorNoticeUseCase.ts
+│   ├── ShowGenericErrorUseCase.ts
+│   └── __tests__
+│       ├── DismissErrorNoticeUseCase-test.ts
+│       └── ShowErrorNoticeUseCase-test.ts
+├── Profile
+│   ├── ExportProfileUseCase.ts
+│   ├── ImportProfileJSONUseCase.ts
+│   ├── ToggleProfileWindowUseCase.ts
+│   └── __tests__
+│       ├── ExportProfileUseCase-test.ts
+│       └── ImportProfileJSONUseCase-test.ts
+├── QuickIssue
+│   ├── CloseQuickIssueUseCase.ts
+│   ├── OpenGitHubIssueUseCase.ts
+│   └── OpenQuickIssueUseCase.ts
+└── System
+    ├── ClearAllStorageUseCase.ts
+    ├── ClearCacheDataUseCase.ts
+    └── SystemReadyToLaunchAppUseCase.ts
+
+```
 
 ## Changelog
 

@@ -15,7 +15,7 @@
   "description": "Command line tool that generate UseCase map from almin's UseCases.",
   "main": "lib/almin-usecase-map-generator.js",
   "bin": {
-    "almin-usecase-map-generator": "lib/almin-usecase-map-generator.js"
+    "almin-usecase-map-generator": "bin/cmd.js"
   },
   "scripts": {
     "precommit": "lint-staged",

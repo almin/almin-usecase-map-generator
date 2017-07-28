@@ -1,9 +1,9 @@
-// MIT © 2017 azu
+#!/usr/bin/env node
 "use strict";
-import * as fs from "fs";
-import * as path from "path";
-import meow = require("meow");
-import { generateUseCaseMap } from "./almin-usecase-map-generator";
+const fs = require("fs");
+const path = require("path");
+const meow = require("meow");
+const generateUseCaseMap = require("../lib/almin-usecase-map-generator").generateUseCaseMap;
 const cli = meow(`
 	Usage
 	  $ almin-usecase-map-generator "[glob*]"

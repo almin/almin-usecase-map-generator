@@ -12,13 +12,14 @@ Install with [npm](https://www.npmjs.com/):
 
     Usage
       $ almin-usecase-map-generator "[glob*]"
-
+    
     Options
       --output  output path
-      --format  "nomnoml" | "svg" (default: "svg")
-
+      --format  "nomnoml" | "svg" | "url" (default: "svg")
+    
     Examples
-          $ almin-usecase-map-generator "src/use-case/**/*.js"
+      $ almin-usecase-map-generator "src/use-case/**/*.js"
+
 
 ## Structure of UseCase
 

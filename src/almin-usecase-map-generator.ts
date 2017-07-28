@@ -10,7 +10,7 @@ export interface generateUseCaseMapConfig {
     createUseCaseName?: (fileName: string) => string;
     includes: string[];
     nomnomlHeader?: string;
-    format: "nomnoml" | "svg";
+    format: "nomnoml" | "svg" | "url";
 }
 export function generateUseCaseMap(config: generateUseCaseMapConfig) {
     const nomnomlHeader = `#direction: right

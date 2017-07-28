@@ -2,7 +2,9 @@ import * as globby from "globby";
 import * as path from "path";
 import * as fs from "fs";
 import groupBy = require("lodash.groupby");
+
 const nomnoml = require("nomnoml");
+
 interface NomnomlUseCase {
     actor: string;
     group: string;
@@ -18,6 +20,7 @@ export interface NomnomlGroup {
         importedUseCases: string[];
     }[];
 }
+
 /**
  * Create nomnoml text from a group
  * @param group a single group
@@ -44,7 +47,7 @@ export interface createNomnomlConfig {
     createUseCaseName: (fileName: string) => string;
     includes: string[];
     nomnomlHeader: string;
-    format: "nomnoml" | "svg";
+    format: "nomnoml" | "svg" | "url";
 }
 
 export function createNomnoml(config: createNomnomlConfig) {
@@ -126,7 +129,9 @@ ${results.join("\n")}`;
     // svg or nomnoml text
     if (config.format === "svg") {
         return nomnoml.renderSvg(result);
-    } else {
+    } else if (config.format === "nomnoml") {
         return result;
+    } else {
+        return `http://www.nomnoml.com/#view/${encodeURIComponent(result)}`;
     }
 }

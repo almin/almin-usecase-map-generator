@@ -5,15 +5,15 @@ const path = require("path");
 const meow = require("meow");
 const generateUseCaseMap = require("../lib/almin-usecase-map-generator").generateUseCaseMap;
 const cli = meow(`
-	Usage
-	  $ almin-usecase-map-generator "[glob*]"
-
+    Usage
+      $ almin-usecase-map-generator "[glob*]"
+    
     Options
       --output  output path
-	  --format  "nomnoml" | "svg" (default: "svg")
-
-	Examples
-	  $ almin-usecase-map-generator "src/use-case/**/*.js"
+      --format  "nomnoml" | "svg" | "url" (default: "svg")
+    
+    Examples
+      $ almin-usecase-map-generator "src/use-case/**/*.js"
 `);
 try {
     const result = generateUseCaseMap({

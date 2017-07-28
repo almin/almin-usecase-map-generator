@@ -3,7 +3,7 @@
 
 Command line tool that generate UseCase map from almin's UseCases.
 
-![Example of output](./out.svg)
+[![Example of output](./out.png)](./out.svg)
 
 ## Install
 

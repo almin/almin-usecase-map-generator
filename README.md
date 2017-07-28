@@ -5,6 +5,9 @@ Command line tool that generate UseCase map from almin's UseCases.
 
 [![Example of output](./out.png)](./out.svg)
 
+This tool generate UML from your UseCase codes.
+The UML is based on [nomnoml](http://www.nomnoml.com/ "nomnoml").
+
 ## Install
 
 Install with [npm](https://www.npmjs.com/):

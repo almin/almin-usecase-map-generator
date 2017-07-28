@@ -1,4 +1,5 @@
-# almin-usecase-map-generator
+# almin-usecase-map-generator [![Build Status](https://travis-ci.org/azu/almin-usecase-map-generator.svg?branch=master)](https://travis-ci.org/azu/almin-usecase-map-generator)
+
 
 Command line tool that generate UseCase map from almin's UseCases.
 

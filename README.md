@@ -18,7 +18,9 @@ Install with [npm](https://www.npmjs.com/):
 
     Usage
       $ almin-usecase-map-generator "[glob*]"
-    
+      # the glob pattern match your usecase files
+
+
     Options
       --output  output path
       --format  "nomnoml" | "svg" | "url" (default: "svg")
@@ -35,7 +37,19 @@ For example, [Faao](https://github.com/azu/faao "Faao").
     - Group/
         - UseCase files
 
-Result: <https://azu.github.io/faao/meta/use-case.html>
+
+**Coommand**:
+
+```sh
+almin-usecase-map-generator "./UseCase/**/*UseCase.ts"
+```
+
+**Result**:
+
+- <https://azu.github.io/faao/meta/use-case.html>
+
+
+**File Tree**:
 
 ```
 ✈ tree

@@ -15,10 +15,18 @@
   "description": "Generator UseCase map from almin's UseCases.",
   "main": "lib/almin-usecase-map-generator.js",
   "scripts": {
+    "precommit": "lint-staged",
+    "postcommit": "git reset",
     "test": "mocha test/",
     "build": "cross-env NODE_ENV=production tsc -p .",
     "watch": "tsc -p . --watch",
     "prepublish": "npm run --if-present build"
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "prettier --write --print-width 100 --tab-width 4",
+      "git add"
+    ]
   },
   "keywords": [
     "usecase",
@@ -37,7 +45,10 @@
     "@types/mocha": "^2.2.41",
     "@types/node": "^8.0.17",
     "cross-env": "^5.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
     "mocha": "^3.4.2",
+    "prettier": "^1.5.3",
     "ts-node": "^3.3.0",
     "typescript": "^2.4.2"
   },

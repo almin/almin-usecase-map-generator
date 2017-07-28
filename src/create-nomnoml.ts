@@ -2,12 +2,12 @@ import * as globby from "globby";
 import * as path from "path";
 import * as fs from "fs";
 import groupBy = require("lodash.groupby");
-const nomnoml = require('nomnoml');
+const nomnoml = require("nomnoml");
 interface NomnomlUseCase {
     actor: string;
     group: string;
     useCase: string;
-    importedUseCases: string[]
+    importedUseCases: string[];
 }
 
 export interface NomnomlGroup {
@@ -16,7 +16,7 @@ export interface NomnomlGroup {
         actor: string;
         useCase: string;
         importedUseCases: string[];
-    }[]
+    }[];
 }
 /**
  * Create nomnoml text from a group
@@ -33,7 +33,7 @@ export const createNomnomlText = (group: NomnomlGroup): string => {
     return `[${group.name}|
 ${actorAnduseCase.join("\n")}
 ]
-`
+`;
 };
 
 export interface createNomnomlConfig {
@@ -50,29 +50,31 @@ export interface createNomnomlConfig {
 
 export function createNomnoml(config: createNomnomlConfig) {
     const allUseCases = globby.sync(config.includes);
-    const ActorList = config.actors
+    const ActorList = config.actors;
     const DefaultActor = config.defaultActor;
-    const header = config.nomnomlHeader
-    const matchUseCase = config.matchUseCase
-    const createGroupName = config.createGroupName
+    const header = config.nomnomlHeader;
+    const matchUseCase = config.matchUseCase;
+    const createGroupName = config.createGroupName;
     const createUseCaseName = config.createUseCaseName;
     const getImportedFiles = (content: string, filePath: string): string[] => {
         const lines = content.split("\n");
         const importLines = lines.filter(line => /from\s+['"][^'"]+['"]/.test(line));
-        return importLines.map(line => {
-            const match = line.match(/from\s+['"]([^'"]+)['"]/);
-            if (match) {
-                const moduleName = match[1];
-                if (/^\./.test(moduleName)) {
-                    // "./HogeUseCase"
-                    return path.resolve(filePath, match[1]);
-                } else {
-                    // from "almin"
-                    return moduleName;
+        return importLines
+            .map(line => {
+                const match = line.match(/from\s+['"]([^'"]+)['"]/);
+                if (match) {
+                    const moduleName = match[1];
+                    if (/^\./.test(moduleName)) {
+                        // "./HogeUseCase"
+                        return path.resolve(filePath, match[1]);
+                    } else {
+                        // from "almin"
+                        return moduleName;
+                    }
                 }
-            }
-            return "";
-        }).filter(path => path.length > 0);
+                return "";
+            })
+            .filter(path => path.length > 0);
     };
     const createUseCase = (useCaseFile: string): NomnomlUseCase => {
         const group = createGroupName(useCaseFile);
@@ -83,19 +85,22 @@ export function createNomnoml(config: createNomnomlConfig) {
         const actor = actorDefined ? actorDefined : DefaultActor;
         const content = fs.readFileSync(useCaseFile, "utf-8");
         const list = getImportedFiles(content, useCaseFile);
-        const importedUseCases = list.filter((filePath: string) => {
-            return matchUseCase(filePath);
-        }).map((filePath: string) => {
-            return createUseCaseName(filePath)
-        }).filter((dependencyUseCase: string) => {
-            return dependencyUseCase !== useCaseName;
-        });
+        const importedUseCases = list
+            .filter((filePath: string) => {
+                return matchUseCase(filePath);
+            })
+            .map((filePath: string) => {
+                return createUseCaseName(filePath);
+            })
+            .filter((dependencyUseCase: string) => {
+                return dependencyUseCase !== useCaseName;
+            });
         return {
             actor,
             group,
             useCase: useCaseName,
             importedUseCases
-        }
+        };
     };
 
     const createGroup = (useCases: NomnomlUseCase[]): NomnomlGroup[] => {
@@ -105,12 +110,12 @@ export function createNomnoml(config: createNomnomlConfig) {
             results.push({
                 name: groupName,
                 useCases: groupByName[groupName]
-            })
+            });
         });
         return results;
     };
 
-    const useCases = allUseCases.map((useCaseFilePath) => {
+    const useCases = allUseCases.map(useCaseFilePath => {
         return createUseCase(useCaseFilePath);
     });
     const groups = createGroup(useCases);

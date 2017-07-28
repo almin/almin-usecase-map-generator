@@ -17,10 +17,10 @@ export interface generateUseCaseMapConfig {
 export function generateUseCaseMap(config: generateUseCaseMapConfig) {
     const nomnomlHeader = `#direction: right
 #spacing: 50
-#padding: 20`
+#padding: 20`;
     const matchUseCase = (filePath: string): boolean => {
         return /UseCase/i.test(filePath);
-    }
+    };
     const createUseCaseName = (useCaseFilePath: string): string => {
         const basename = path.basename(useCaseFilePath, path.extname(useCaseFilePath));
         return basename
@@ -29,7 +29,7 @@ export function generateUseCaseMap(config: generateUseCaseMapConfig) {
     };
     const createGroupName = (useCaseFilePath: string): string => {
         return path.basename(path.dirname(useCaseFilePath));
-    }
+    };
     const output = createNomnoml({
         nomnomlHeader,
         matchUseCase,

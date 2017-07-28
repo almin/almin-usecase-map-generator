@@ -1,0 +1,51 @@
+{
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "almin-usecase-map-generator",
+  "version": "1.0.0",
+  "description": "Generator UseCase map from almin's UseCases.",
+  "main": "lib/almin-usecase-map-generator.js",
+  "scripts": {
+    "test": "mocha test/",
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "watch": "tsc -p . --watch",
+    "prepublish": "npm run --if-present build"
+  },
+  "keywords": [
+    "usecase",
+    "almin",
+    "figure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/almin/almin-usecase-map-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/almin/almin-usecase-map-generator/issues"
+  },
+  "homepage": "https://github.com/almin/almin-usecase-map-generator",
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^8.0.17",
+    "cross-env": "^5.0.1",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/globby": "^0.6.0",
+    "@types/lodash.groupby": "^4.6.2",
+    "globby": "^6.1.0",
+    "lodash.groupby": "^4.6.0",
+    "nomnoml": "^0.1.1"
+  }
+}

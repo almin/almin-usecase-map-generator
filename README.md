@@ -3,6 +3,17 @@
 
 Command line tool that generate UseCase map from almin's UseCases.
 
+```
+└── use-case
+    ├── group-a
+    │   ├── AUseCase.ts
+    │   └── BUseCase.ts
+    └── group-b
+        ├── CUseCase.ts
+        └── DUseCase.ts
+```
+
+
 [![Example of output](./out.png)](./out.svg)
 
 This tool generate UML from your UseCase codes.

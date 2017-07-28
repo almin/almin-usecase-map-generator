@@ -20,7 +20,6 @@ try {
         includes: cli.input,
         defaultActor: "AppUser",
         actors: ["AppUser", "System"],
-        outputPath: cli.flags.output,
         format: cli.flags.format || "svg"
     });
     if (cli.flags.output && result) {

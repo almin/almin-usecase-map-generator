@@ -43,7 +43,6 @@ export interface createNomnomlConfig {
     createGroupName: (fileName: string) => string;
     createUseCaseName: (fileName: string) => string;
     includes: string[];
-    outputPath: string;
     nomnomlHeader: string;
     format: "nomnoml" | "svg";
 }

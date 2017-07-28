@@ -9,7 +9,6 @@ export interface generateUseCaseMapConfig {
     createGroupName?: (fileName: string) => string;
     createUseCaseName?: (fileName: string) => string;
     includes: string[];
-    outputPath: string;
     nomnomlHeader?: string;
     format: "nomnoml" | "svg";
 }
@@ -29,13 +28,11 @@ export function generateUseCaseMap(config: generateUseCaseMapConfig) {
     const createGroupName = (useCaseFilePath: string): string => {
         return path.basename(path.dirname(useCaseFilePath));
     };
-    const output = createNomnoml({
+    return createNomnoml({
         nomnomlHeader,
         matchUseCase,
         createGroupName,
         createUseCaseName,
         ...config
     });
-
-    return output;
 }

@@ -52,6 +52,9 @@ export interface createNomnomlConfig {
 
 export function createNomnoml(config: createNomnomlConfig) {
     const allUseCases = globby.sync(config.includes);
+    if (allUseCases.length === 0) {
+        throw new Error("Nof found files match the glob: " + config.includes);
+    }
     const ActorList = config.actors;
     const DefaultActor = config.defaultActor;
     const header = config.nomnomlHeader;

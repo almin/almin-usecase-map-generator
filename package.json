@@ -11,7 +11,7 @@
     "src/"
   ],
   "name": "almin-usecase-map-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command line tool that generate UseCase map from almin's UseCases.",
   "main": "lib/almin-usecase-map-generator.js",
   "bin": {

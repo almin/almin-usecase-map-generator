@@ -232,10 +232,6 @@ cosmiconfig@^1.1.0:
     pinkie-promise "^2.0.0"
     require-from-string "^1.1.0"
 
-cp-data@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/cp-data/-/cp-data-1.1.3.tgz#b705f637992db68f37e2d48de525b1d66dd5b372"
-
 cross-env@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
@@ -267,12 +263,12 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-dagre@0.4.x:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/dagre/-/dagre-0.4.6.tgz#622aba8144b08580b3b90b09816a0809791f30b0"
+dagre@0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/dagre/-/dagre-0.8.4.tgz#26b9fb8f7bdc60c6110a0458c375261836786061"
   dependencies:
-    cp-data "1.1.3"
-    graphlib "0.7.4"
+    graphlib "^2.1.7"
+    lodash "^4.17.4"
 
 date-fns@^1.27.2:
   version "1.28.5"
@@ -385,11 +381,11 @@ graceful-fs@^4.1.2:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-graphlib@0.7.4:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/graphlib/-/graphlib-0.7.4.tgz#41027ea381c3db06bb0c1b0be936d732859edda7"
+graphlib@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/graphlib/-/graphlib-2.1.7.tgz#b6a69f9f44bd9de3963ce6804a2fc9e73d86aecc"
   dependencies:
-    cp-data "1.1.3"
+    lodash "^4.17.5"
 
 growl@1.9.2:
   version "1.9.2"
@@ -672,13 +668,9 @@ lodash.keys@^3.0.0:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
-lodash@^4.17.4:
+lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.14"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
-
-lodash@~3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.7.0.tgz#3678bd8ab995057c07ade836ed2ef087da811d45"
 
 log-symbols@^1.0.2:
   version "1.0.2"
@@ -785,12 +777,11 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
 
-nomnoml@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-0.1.1.tgz#42645c25a7f88ca99b3967b086e0c4004eac7118"
+nomnoml@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-0.6.0.tgz#95f342323b9b68c65913a877464f1bf067d27266"
   dependencies:
-    dagre "0.4.x"
-    lodash "~3.7.0"
+    dagre "0.8.4"
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.4.0"

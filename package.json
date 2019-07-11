@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@types/globby": "^0.6.0",
-    "@types/lodash.groupby": "^4.6.2",
+    "@types/lodash.groupby": "^4.6.6",
     "@types/meow": "^3.6.2",
     "globby": "^6.1.0",
     "lodash.groupby": "^4.6.0",

@@ -48,7 +48,7 @@
     "@types/mocha": "^2.2.48",
     "@types/node": "^8.10.50",
     "almin": "^0.18.1",
-    "cross-env": "^5.0.1",
+    "cross-env": "^5.2.0",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.2",
     "mocha": "^3.4.2",

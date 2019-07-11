@@ -60,7 +60,7 @@
     "@types/globby": "^0.6.0",
     "@types/lodash.groupby": "^4.6.6",
     "@types/meow": "^3.6.2",
-    "globby": "^6.1.0",
+    "globby": "^10.0.1",
     "lodash.groupby": "^4.6.0",
     "meow": "^3.7.0",
     "nomnoml": "^0.6.0"

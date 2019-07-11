@@ -47,9 +47,9 @@
   version "8.0.17"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.17.tgz#677bc8c118cfb76013febb62ede1f31d2c7222a1"
 
-almin@^0.13.10:
-  version "0.13.10"
-  resolved "https://registry.yarnpkg.com/almin/-/almin-0.13.10.tgz#91c2b8a74674cecd01a72fbe61c7e5ab9ea32ee9"
+almin@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/almin/-/almin-0.13.11.tgz#953c6efa380d4a9245c3ed05bf8fa4826363635e"
   dependencies:
     map-like "^2.0.0"
     shallow-equal-object "^1.0.1"

@@ -57,7 +57,7 @@
     "typescript": "^2.4.2"
   },
   "dependencies": {
-    "@types/globby": "^0.6.0",
+    "@types/globby": "^8.0.0",
     "@types/lodash.groupby": "^4.6.6",
     "@types/meow": "^3.6.2",
     "globby": "^6.1.0",

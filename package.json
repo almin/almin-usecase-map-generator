@@ -18,8 +18,6 @@
     "almin-usecase-map-generator": "./bin/cmd.js"
   },
   "scripts": {
-    "precommit": "lint-staged",
-    "postcommit": "git reset",
     "test": "mocha \"test/**/*.ts\"",
     "build": "cross-env NODE_ENV=production tsc -p .",
     "watch": "tsc -p . --watch",
@@ -63,5 +61,11 @@
     "lodash.groupby": "^4.6.0",
     "meow": "^5.0.0",
     "nomnoml": "^0.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "post-commit": "git reset",
+      "pre-commit": "lint-staged"
+    }
   }
 }

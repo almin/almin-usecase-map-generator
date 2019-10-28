@@ -60,7 +60,7 @@
     "globby": "^10.0.1",
     "lodash.groupby": "^4.6.0",
     "meow": "^5.0.0",
-    "nomnoml": "^0.6.1"
+    "nomnoml": "^0.6.2"
   },
   "husky": {
     "hooks": {

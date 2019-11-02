@@ -44,7 +44,7 @@
   "homepage": "https://github.com/almin/almin-usecase-map-generator",
   "devDependencies": {
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.12.3",
+    "@types/node": "^12.12.5",
     "almin": "^0.18.1",
     "cross-env": "^5.2.1",
     "husky": "^3.0.9",

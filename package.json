@@ -59,7 +59,7 @@
     "@types/meow": "^5.0.0",
     "globby": "^10.0.2",
     "lodash.groupby": "^4.6.0",
-    "meow": "^6.0.0",
+    "meow": "^6.0.1",
     "nomnoml": "^0.6.2"
   },
   "husky": {

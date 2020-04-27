@@ -116,6 +116,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.37.tgz#cb4782d847f801fa58316da5b4801ca3a59ae790"
   integrity sha512-4mXKoDptrXAwZErQHrLzpe0FN/0Wmf5JRniSVIdwUrtDf9wnmEV1teCNLBo/TwuXhkK/bVegoEn/wmb+x0AuPg==
 
+"@types/node@^13.13.2":
+  version "13.13.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
+  integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
+
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
@@ -1220,11 +1225,12 @@ node-environment-flags@1.0.5:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
 
-nomnoml@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-0.6.2.tgz#5acb1ac1a393c84da40f64a355ab208b7b0da9ae"
-  integrity sha512-vkyF75zCxTymqetEiHukqhPVRsiH1OaoPysdxHVpxvtRtOTDXSUamLWHFNq/z07Ia0LQ2NDpDueVeZqhYtOfUw==
+nomnoml@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-0.7.1.tgz#ab52fb0a85525a13b0a4fee19550cddefe703705"
+  integrity sha512-Oo7v8aI7JcsQ5fx+Zs8RcL4VFUK5ryFkiulqv+NL821UWrxz5yrpAZQ1GzUqagTOiEXZ97/c1woIfJPtt+IJvw==
   dependencies:
+    "@types/node" "^13.13.2"
     dagre "0.8.4"
 
 normalize-package-data@^2.5.0:

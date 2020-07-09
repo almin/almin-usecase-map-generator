@@ -1228,10 +1228,10 @@ node-environment-flags@1.0.5:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
 
-nomnoml@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-0.7.2.tgz#c6e7d82f3e11d71d020563eb6446ca81f21fd750"
-  integrity sha512-3Tp/GJbQQcvq2ckCzQnIbMnIZDOQHFdVkFvGLXIXegR2X7kw7mEIAasgz3TgfPLeoBrozUcjkGHJckZTvhfupA==
+nomnoml@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-0.7.3.tgz#6a35f5d052f834e8921d0c5587b5e8a72f5112b9"
+  integrity sha512-/GfxNjAEpwBEwFR0AfZ0+3vI2BvdHsk6KEhT90c9fsCthjLypyQPgQckDKHd5P8QwaDZypZImAf+MqPRVlUM6g==
   dependencies:
     dagre "0.8.5"
 

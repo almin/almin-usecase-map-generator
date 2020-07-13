@@ -45,7 +45,7 @@
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.50",
-    "almin": "^0.18.1",
+    "almin": "^0.19.0",
     "cross-env": "^5.2.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",

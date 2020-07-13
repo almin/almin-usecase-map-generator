@@ -123,13 +123,13 @@ aggregate-error@^3.0.0:
     clean-stack "^2.0.0"
     indent-string "^4.0.0"
 
-almin@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/almin/-/almin-0.18.1.tgz#fa5df7a11b6c04e5fead36fd42d8884c724af6f7"
-  integrity sha512-W/fsBpew0Vf/2lWsqflyNLZvEb8+z8JzrNUKcjGVUm7wRVLhOWwMxiYmqGQ7Pbj+nckpI3P9abdAfq1sr9sD6g==
+almin@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/almin/-/almin-0.19.0.tgz#f5de37b44069f314a6cf19e865d0f6e6ac46c306"
+  integrity sha512-DMYy3GyoXRw4AhAgtDSkLCSz0lWvbO8DTZJS5jNudCLwcag6LsmlOX9g+eO3weZosZQqtKvHn7BH3//VRxT3iw==
   dependencies:
     map-like "^2.0.0"
-    shallow-equal-object "^1.0.1"
+    shallow-equal-object "^1.1.1"
 
 ansi-colors@3.2.3:
   version "3.2.3"
@@ -1567,7 +1567,7 @@ set-blocking@^2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-shallow-equal-object@^1.0.1:
+shallow-equal-object@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/shallow-equal-object/-/shallow-equal-object-1.1.1.tgz#0c016b8cc16dc59ab76739b6eeaa9c99d68beef7"
   integrity sha512-9DDzYRlzCwF2CemeF0aOFk5T5KMrjG7HldcW7utwYhA/limuGHn3No8KhpDE8BrO7GLaSRJumNKReipZBybd7A==

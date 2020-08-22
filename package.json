@@ -51,7 +51,7 @@
     "lint-staged": "^10.2.11",
     "mocha": "^6.2.3",
     "prettier": "^1.18.2",
-    "ts-node": "^8.10.2",
+    "ts-node": "^9.0.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {

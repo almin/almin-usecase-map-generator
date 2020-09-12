@@ -1,34 +1,54 @@
-<svg width="398" height="575" version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:3;stroke-linejoin:round;stroke-linecap:round"><rect x="75.5" y="25.5" height="265" width="249" style="stroke:#33322E;fill:#eee8d5;"></rect>
-<text x="170.3" y="59" style="">group-a</text>
-<path d="M75.5 80.5 L324.5 80.5" style="stroke:#33322E;fill:none;"></path>
-<path d="M189.8 158 L225.5 133 L250.5 133 L250.5 133 " style="stroke:#33322E;fill:none;"></path>
-<path d="M233.8 139.7 L242.2 133 L233.8 126.3 L250.5 133 Z" style="stroke:#33322E;fill:#33322E;"></path>
-<path d="M189.8 213 L225.5 238 L250.5 238 L250.5 238 " style="stroke:#33322E;fill:none;"></path>
-<path d="M233.8 244.7 L242.2 238 L233.8 231.3 L250.5 238 Z" style="stroke:#33322E;fill:#33322E;"></path>
-<circle r="10" cx="150.5" cy="153.5" style="stroke:#33322E;fill:#fdf6e3;"></circle>
-<path d="M150.5 163.5 L150.5 183.5" style="stroke:#33322E;fill:none;"></path>
-<path d="M140.5 173.5 L160.5 173.5" style="stroke:#33322E;fill:none;"></path>
-<path d="M140.5 193.5 L150.5 183.5 L160.5 193.5" style="stroke:#33322E;fill:none;"></path>
-<text x="120.8" y="207" style="">AppUser</text>
-<ellipse cx="275" cy="133" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
-<text x="270.8" y="139" style="">A</text>
-<ellipse cx="275" cy="238" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
-<text x="270.8" y="244" style="">B</text>
-<rect x="25.5" y="340.5" height="210" width="348" style="stroke:#33322E;fill:#eee8d5;"></rect>
-<text x="169.8" y="374" style="">group-b</text>
-<path d="M25.5 395.5 L373.5 395.5" style="stroke:#33322E;fill:none;"></path>
-<path d="M150.5 460.9 L175.5 448 L200.5 448 L200.5 448 " style="stroke:#33322E;fill:none;"></path>
-<path d="M183.8 454.7 L192.2 448 L183.8 441.3 L200.5 448 Z" style="stroke:#33322E;fill:#33322E;"></path>
-<path d="M249.5 448 L274.5 448 L299.5 467.6 L299.5 467.6 " style="stroke:#33322E;fill:none;"></path>
-<path d="M282.3 462.5 L292.9 462.4 L290.5 452 L299.5 467.6 Z" style="stroke:#33322E;fill:#33322E;"></path>
-<path d="M150.5 512.6 L175.5 525.5 L274.5 525.5 L274.5 525.5 L299.5 505.9 L299.5 505.9 " style="stroke:#33322E;fill:none;"></path>
-<path d="M290.5 521.5 L292.9 511.1 L282.3 511 L299.5 505.9 Z" style="stroke:#33322E;fill:#33322E;"></path>
-<circle r="10" cx="100.5" cy="454.5" style="stroke:#33322E;fill:#fdf6e3;"></circle>
-<path d="M100.5 464.5 L100.5 484.5" style="stroke:#33322E;fill:none;"></path>
-<path d="M90.5 474.5 L110.5 474.5" style="stroke:#33322E;fill:none;"></path>
-<path d="M90.5 494.5 L100.5 484.5 L110.5 494.5" style="stroke:#33322E;fill:none;"></path>
-<text x="70.8" y="508" style="">AppUser</text>
-<ellipse cx="225" cy="448" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
-<text x="220.8" y="454" style="">C</text>
-<ellipse cx="324" cy="486.8" rx="24.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;"></ellipse>
-<text x="319.8" y="493" style="">D</text></svg>
+<svg width="948" height="878.75" version="1.1" baseProfile="full" viewbox="0 0 948 878.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:3;stroke-linejoin:round;stroke-linecap:round"><rect x="25.5" y="25.5" height="265" width="898" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="474.5" y="59" style="text-anchor: middle;">test</text>
+<path d="M25.5 80.5 L923.5 80.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M145.1 158 L182.5 133 L207.5 133 L207.5 133 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M190.8 139.7 L199.2 133 L190.8 126.3 L207.5 133 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M551.5 133 L576.5 133 L601.5 133 L601.5 133 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M584.8 139.7 L593.2 133 L584.8 126.3 L601.5 133 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M145.1 213 L182.5 238 L335.5 238 L335.5 238 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M318.8 244.7 L327.2 238 L318.8 231.3 L335.5 238 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<circle r="10" cx="104" cy="153.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></circle>
+<path d="M104 163.5 L104 183.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M94 173.5 L114 173.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M94 193.5 L104 183.5 L114 193.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="104" y="207" style="font-weight:normal;text-anchor: middle;">AppUser</text>
+<ellipse cx="379.5" cy="133" rx="172" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="379.5" y="139" style="font-weight:normal;text-anchor: middle;">almin-usecase-map-generator-test</text>
+<ellipse cx="750" cy="133" rx="148.5" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="750" y="139" style="font-weight:normal;text-anchor: middle;">almin-usecase-map-generator</text>
+<ellipse cx="379.5" cy="238" rx="44" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="379.5" y="244" style="font-weight:normal;text-anchor: middle;">mocha</text>
+<rect x="346.5" y="340.5" height="265" width="257" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="475" y="374" style="text-anchor: middle;">group-a</text>
+<path d="M346.5 395.5 L603.5 395.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M466.1 473 L503.5 448 L528.5 448 L528.5 448 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M511.8 454.7 L520.2 448 L511.8 441.3 L528.5 448 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M466.1 528 L503.5 553 L528.5 553 L528.5 553 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M511.8 559.7 L520.2 553 L511.8 546.3 L528.5 553 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<circle r="10" cx="425" cy="468.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></circle>
+<path d="M425 478.5 L425 498.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M415 488.5 L435 488.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M415 508.5 L425 498.5 L435 508.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="425" y="522" style="font-weight:normal;text-anchor: middle;">AppUser</text>
+<ellipse cx="553.5" cy="448" rx="25" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="553.5" y="454" style="font-weight:normal;text-anchor: middle;">A</text>
+<ellipse cx="553.5" cy="553" rx="25" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="553.5" y="559" style="font-weight:normal;text-anchor: middle;">B</text>
+<rect x="296.5" y="655.5" height="198.75" width="357" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="475" y="689" style="text-anchor: middle;">group-b</text>
+<path d="M296.5 710.5 L653.5 710.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M428.5 775.3 L453.5 763 L478.5 763 L478.5 763 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M461.8 769.7 L470.2 763 L461.8 756.3 L478.5 763 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M528.5 763 L553.5 763 L578.5 782.4 L578.5 782.4 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M561.2 777.4 L571.9 777.3 L569.4 766.9 L578.5 782.4 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<path d="M428.5 828.2 L453.5 840.5 L503.5 840.5 L503.5 840.5 L553.5 840.5 L553.5 840.5 L578.5 821.1 L578.5 821.1 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M569.4 836.6 L571.9 826.2 L561.2 826.1 L578.5 821.1 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<circle r="10" cx="375" cy="769.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></circle>
+<path d="M375 779.5 L375 799.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M365 789.5 L385 789.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M365 809.5 L375 799.5 L385 809.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="375" y="823" style="font-weight:normal;text-anchor: middle;">AppUser</text>
+<ellipse cx="503.5" cy="763" rx="25" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="503.5" y="769" style="font-weight:normal;text-anchor: middle;">C</text>
+<ellipse cx="603.5" cy="801.8" rx="25" ry="27.5" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></ellipse>
+<text x="603.5" y="808" style="font-weight:normal;text-anchor: middle;">D</text></svg>

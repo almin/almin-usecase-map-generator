@@ -1207,9 +1207,9 @@ node-environment-flags@1.0.5:
     semver "^5.7.0"
 
 nomnoml@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-1.0.1.tgz#cb0f0fcf4d52e85aab664934263589ce138f634f"
-  integrity sha512-ny+R+LALPJusIFzKrUAhkn/McyDSdBQE0uO0KkdDSC28o/qAuQd6lYz1mhkt6T+0ECMMcGQfLc+tA1YddsNKmA==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-1.1.0.tgz#b76c2202f71c673c355e96fd78296cdc7862703f"
+  integrity sha512-hA/tko8fLkawuSyXX+blCvPktMKCyjrLyFxy/Glclaik2wFk9angKJllQ/fpptEPpPr1nD1spGJB4Rbr+aUxnA==
   dependencies:
     dagre "0.8.5"
 

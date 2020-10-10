@@ -57,7 +57,7 @@
   "dependencies": {
     "@types/lodash.groupby": "^4.6.6",
     "@types/meow": "^5.0.0",
-    "globby": "^10.0.2",
+    "globby": "^11.0.1",
     "lodash.groupby": "^4.6.0",
     "meow": "^7.1.1",
     "nomnoml": "^1.2.0"

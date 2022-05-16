@@ -44,7 +44,7 @@
   "homepage": "https://github.com/almin/almin-usecase-map-generator",
   "devDependencies": {
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.20.15",
+    "@types/node": "^12.20.52",
     "almin": "^0.19.0",
     "cross-env": "^5.2.1",
     "husky": "^3.1.0",
@@ -55,7 +55,7 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "@types/lodash.groupby": "^4.6.6",
+    "@types/lodash.groupby": "^4.6.7",
     "@types/meow": "^5.0.0",
     "globby": "^10.0.2",
     "lodash.groupby": "^4.6.0",

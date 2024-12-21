@@ -1205,10 +1205,10 @@ node-environment-flags@1.0.5:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
 
-nomnoml@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-1.5.2.tgz#efcc4d4e122df25ed7a45eb7e1c2aa9570289141"
-  integrity sha512-e2V59Bosh2a9TcC6mwg65om0xi1OkpwphN55HiFeoAFo1YjI1IsC9MLvhNWJYQdbvc4xULus46SUOYLDebcyFw==
+nomnoml@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/nomnoml/-/nomnoml-1.7.0.tgz#9e80cb31a14968330a62e7600b777aecbafdea79"
+  integrity sha512-l4eP+/2oSLT+zybLhvaWAQhPluiVbJuD3YUsLM0ggPbQMKH5ni2Vfc0YQPQRsolRHSt5H9SXtzng9MBVCbd+Ag==
   dependencies:
     graphre "^0.1.3"
 

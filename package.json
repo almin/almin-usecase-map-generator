@@ -55,12 +55,12 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "@types/lodash.groupby": "^4.6.7",
+    "@types/lodash.groupby": "^4.6.9",
     "@types/meow": "^5.0.0",
     "globby": "^10.0.2",
     "lodash.groupby": "^4.6.0",
     "meow": "^7.1.1",
-    "nomnoml": "^1.5.2"
+    "nomnoml": "^1.5.3"
   },
   "husky": {
     "hooks": {
